@@ -66,20 +66,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     ros-$ROS_DISTRO-cv-bridge \
     ros-$ROS_DISTRO-rosbag2-py \
     ros-$ROS_DISTRO-usb-cam \
-    ros-$ROS_DISTRO-ur \
-    ros-$ROS_DISTRO-rviz2 \
     ros-$ROS_DISTRO-rmw-cyclonedds-cpp \
     ros-$ROS_DISTRO-ros-testing \
     ros-$ROS_DISTRO-ros2bag \
-    ros-$ROS_DISTRO-ign-ros2-control \
-    ros-$ROS_DISTRO-moveit-servo \
-    ros-$ROS_DISTRO-ros-ign-bridge \
-    ros-$ROS_DISTRO-ros-ign-gazebo \
     ros-$ROS_DISTRO-ament-clang-format \
-    ros-$ROS_DISTRO-moveit-visual-tools \
-    ros-$ROS_DISTRO-clearpath-simulator \
-    ros-$ROS_DISTRO-clearpath-desktop \
-    ros-$ROS_DISTRO-clearpath-nav2-demos \
+    ros-$ROS_DISTRO-turtlesim \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
